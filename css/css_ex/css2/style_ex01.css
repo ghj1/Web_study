@@ -1,0 +1,26 @@
+div {
+    background-color: darkgreen;
+    width: 800px;
+    height: 200px;
+    margin-bottom:  5px;
+    margin: 5px;
+    /*top,right, bottm, left 동일 5px*/
+    margin: 5px 10px;
+    /* (top, bttom) (right, left) 순서대로 적용*/
+    margin: 5px 10px 15px 20px;
+}
+
+div.box1{
+    border: darkolivegreen solid 5px;
+    
+}
+div.box2{
+    border:steelblue solid 5px;
+    
+}
+
+div.box h2 {
+    font-size: 16pt;
+    color: rgb(163, 228, 32);
+}
+

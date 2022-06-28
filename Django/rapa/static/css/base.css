@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    background-image: url('../imgs/slide3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+div#content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div#content h2{
+    margin: 30px;
+}
+
+div#sidev > ul{
+    display: flex;
+}
+
+div#sidev > ul > li{
+    list-style: none;
+    padding: 5px;
+}
+
+div#sidev ul li a{
+    color: white;
+}
+
+div > .apps > li {
+    background-color: rgb(187, 157, 207);
+    margin-bottom:  10px;
+    padding: 10px;
+    list-style: none;
+}
+
+div > .apps > li a{
+    font-size: 30px;
+    color: rgb(157, 189, 219);
+}
+
+div > .apps > li > a:link{
+    text-decoration: none;
+}
+
+div > .apps > li > a:hover{
+    color: rgb(189, 92, 92);
+}

@@ -1,0 +1,12 @@
+table td{
+background-color: aquamarine;
+padding:  10px;
+}
+
+table td :first-child{
+    width: 100px;
+    }
+
+table td :first-child(2){
+    width: 100px;
+    }

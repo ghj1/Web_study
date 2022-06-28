@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(202, 198, 198);
+}
+
+
+div.gnb {
+    display: flex;
+}
+
+div.gnb h2{
+    width:  200px;
+    background-color: rgb(184, 219, 240);
+    
+    margin: 0px 5px 10px 0px;
+    font-size:  12pt;
+    text-align: center;
+    padding:  10px 0px;
+}
+div.top {
+    text-align:left;
+    color: rgb(0, 85, 196);
+}
+
+div.first {
+    display: flex
+}
+
+div.myimg1 {
+    color: rgb(27, 92, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 10px;
+    width: 35%;
+}
+div.myimg2 {
+    width: 65%;
+}

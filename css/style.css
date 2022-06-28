@@ -1,0 +1,31 @@
+body{
+    width:  1200px;
+    margin: 0 auto;
+}
+
+
+h1 { color:rgb(80, 103, 173);}
+
+div.gnb {
+    display: flex;
+}
+div.gnb_2 {
+    display: flex;
+}
+
+div.gnb h2{
+    width:  200px;
+    background-color: green;
+    margin: 0px 5px 10px 0px;
+    font-size:  12pt;
+    text-align: center;
+    padding:  10px 0px;
+}
+
+div.f_layer{
+    display: flex;
+}
+
+div.sub_box{
+    width: 50%;
+}
