@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.All_box {
+    position: relative;
+    display: block;
+    background-color: #EBEFF3;
+    border: 1px solid #EBEFF3;
+    border-radius: 12px;
+    margin: 50px 100px;
+    width: 400px;
+    height: 500px;
+}
+
+
+.colorBox {
+    position: absolute;
+    display: block;
+    text-align: end;
+    border: 1px solid #719FB0;
+    border-radius: 12px;
+    background-color: #719FB0;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    top: 20px;
+    right: 23px;
+}
+
+.backBox {
+    position: absolute;
+    top: 500px;
+}
+
+p{
+    position:absolute;
+    float: right;
+}
+
+.colorBox:hover span{
+    position: absolute;
+    opacity: 100%;
+    background-color: #568291;
+    color: white;
+    padding: 6px;
+    top: 300px;
+    right: 278px;
+}
+
+span {
+    opacity: 1%;
+}
+
+button {
+    position: absolute;
+    border-radius: 12px;
+    border: 1.5px solid #C2C5C8;
+    font-size: large;
+    width: 90px;
+    height: 45px;
+    bottom: 60px;
+    left: 20px;
+}
+
+
+p {
+    position: absolute;
+    font-size: large;
+    font-weight: 600;
+    bottom: 50px;
+    left: 300px;
+}
