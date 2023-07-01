@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainPicture {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+.inputWrap {
+    position: relative;
+    width: 600px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+input {
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 14px;
+}
+
+.gls_icon {
+    position: absolute;
+    width: 7%;
+    top: 3px;
+    left: 10px;
+}
+
+.right_search img:nth-child(1){
+    position: absolute;
+    width: 4%;
+    top: 2px;
+    right: 100px;
+}
+
+.right_search img:nth-child(2){
+    position: absolute;
+    width: 3%;
+    top: 4px;
+    right: 75px;
+    filter: opacity(0.5) drop-shadow(0 0 0 skyblue);
+}
+
+
+.Button {
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px 12px;
+}
+
+p {
+    font-size: smaller;
+    text-align: center;
+}
